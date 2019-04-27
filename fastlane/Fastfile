@@ -1,0 +1,6 @@
+lane :test do
+  summonbin(
+    scheme: "fastlane",
+    command: "puts \"Hello World!\""
+  )
+end
