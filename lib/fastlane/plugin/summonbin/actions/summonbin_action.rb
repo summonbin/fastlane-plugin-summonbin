@@ -1,5 +1,5 @@
-require 'fastlane/action'
-require_relative '../helper/summonbin_helper'
+require "fastlane/action"
+require_relative "../helper/summonbin_helper"
 
 module Fastlane
   module Actions
