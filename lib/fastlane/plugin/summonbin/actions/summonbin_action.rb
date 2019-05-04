@@ -1,5 +1,5 @@
-require 'fastlane/action'
-require_relative '../helper/summonbin_helper'
+require "fastlane/action"
+require_relative "../helper/summonbin_helper"
 
 module Fastlane
   module Actions
@@ -23,7 +23,7 @@ module Fastlane
                                   env_name: "SUMMONBIN_DEFAULT_SCHEME",
                                description: "Scheme to use",
                                   optional: true,
-                             default_value: :ci,
+                             default_value: :debug,
                                       type: String),
           FastlaneCore::ConfigItem.new(key: :command,
                               short_option: "-c",

@@ -1,10 +1,10 @@
-require 'fastlane/plugin/summonbin/version'
+require "fastlane/plugin/summonbin/version"
 
 module Fastlane
   module Summonbin
     # Return all .rb files inside the "actions" and "helper" directory
     def self.all_classes
-      Dir[File.expand_path('**/{actions,helper}/*.rb', File.dirname(__FILE__))]
+      Dir[File.expand_path("**/{actions,helper}/*.rb", File.dirname(__FILE__))]
     end
   end
 end
